@@ -2,6 +2,12 @@
 
 <?= $this->section('content'); ?>
 
-<div>About</div>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <p>Belajar CI4App</p>
+        </div>
+    </div>
+</div>
 
 <?= $this->endSection(); ?>

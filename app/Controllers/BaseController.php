@@ -43,6 +43,10 @@ class BaseController extends Controller
 		// $this->session = \Config\Services::session();
 
 		$this->nama = "Andre Setiawan";
+
+
+		//Contoh Model Global
+		$this->filmModelGlobal = new \App\Models\FilmModel();
 	}
 
 }

@@ -9,7 +9,7 @@ class Pages extends BaseController
         $data = [
             'title' => 'Home'
         ];
-        echo view('pages/home', $data);
+        return view('pages/home', $data);
     }
 
     public function about()
@@ -17,7 +17,7 @@ class Pages extends BaseController
         $data = [
             'title' => 'About'
         ];
-        echo view('pages/about', $data);
+        return view('pages/about', $data);
     }
     //--------------------------------------------------------------------
 

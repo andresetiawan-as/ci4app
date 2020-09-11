@@ -1,5 +1,13 @@
 <?= $this->extend('layout/template'); ?>
 
 <?= $this->section('content'); ?>
-<div>Home 123</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <p>Hello World!</p>
+        </div>
+    </div>
+</div>
+
 <?= $this->endSection(); ?>
